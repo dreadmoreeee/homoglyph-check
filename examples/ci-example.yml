@@ -1,0 +1,14 @@
+# Example CI step (GitHub Actions syntax): fail the build when a text file
+# contains bidi controls or look-alike domains. Adjust the paths and domains.
+name: homoglyph-check
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ./homoglyph-check
+      - run: homoglyph-check --file docs/announcement.md --protect example.com,www.example.com --fail-on high

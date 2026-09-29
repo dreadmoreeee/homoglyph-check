@@ -1,0 +1,15 @@
+Controls (the real domains):
+  https://demarkstudio.ca/
+  https://marvin.demarkstudio.ca/
+Look-alikes:
+  https://dem\u0430rkstudio.ca/
+  https://demarkstudi\u043e.ca/
+  https://demarkstudi\u03bf.ca/
+  https://marvin.dem\u0430rkstudio.ca/
+  https://demark\u200bstudio.ca/
+  https://\uff44\uff45\uff4d\uff41\uff52\uff4b\uff53\uff54\uff55\uff44\uff49\uff4f.\uff43\uff41/
+Punycode forms:
+  https://xn--demrkstudio-0ij.ca/
+  https://xn--demarkstudi-1nj.ca/
+  https://xn--demarkstudi-ifi.ca/
+  https://marvin.xn--demrkstudio-0ij.ca/
